@@ -23,6 +23,14 @@
     gap:10px
     
 }
+.flexx{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+   
+ 
+
+}
 .banner-divider{
     display: flex;
    
@@ -55,12 +63,21 @@
     position:relative;
     text-align:center;    
 }
+
 .centered{
   position:absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
  
+}
+.centere{
+    position:absolute;
+    bottom:40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
 .heading-blue{
     color:#003B60;
@@ -97,4 +114,27 @@
     color: white;
     margin-top:-200px;
 
+}
+.description{
+    padding:50px 200px ;
+}
+.size{
+
+}
+.denim-properties{
+    background: #F0F9FF;
+    padding:20px 50px;
+}
+.image{
+    background-image:url('../Resource/bunch-twisted-jeans-close-up-fashionable-clothes (1) 1.png');
+    background-size: cover;
+    background-position: center;
+    width: 1756px;
+    height: 824px;
+    margin:auto;
+    border-radius: 10% 0% 10% 0%;
+    margin-top:-50px;
+
+    
+    
 }
